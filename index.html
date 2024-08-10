@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top-row">
+        <div class="first">
+            <div class="first-row">
+                <i class="fa fa-envelope mail-img"></i>
+                <p class="text-h3">info@company.com</h3>
+            </div>
+            <div class="first-row">
+                <i class="fa fa-map"></i>
+                <p class="text-h3">Sunny Isles Beach, FL 33160</h3>
+            </div>
+        </div>
+        <div class="second">
+            <ul>
+                <a href="#">
+                    <li class="icon-style"><i class="fa fa-facebook"></i></li>
+                </a>
+                <a href="">
+                    <li class="icon-style"><i class="fa fa-twitter"></i></li>
+                </a>
+                <a href="">
+                    <li class="icon-style"><i class="fa fa-linkedin"></i></li>
+                </a>
+                <a href="">
+                    <li class="icon-style"><i class="fa fa-instagram"></i></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <h2>VILLA</h2>
+            </a>
+        </div>
+        <div class="header-links">
+            <ul>
+                <a href="">
+                    <li class="active-link">Home</li>
+                </a>
+                <a href="">
+                    <li>Properties</li>
+                </a>
+                <a href="">
+                    <li>Property Details</li>
+                </a>
+                <a href="">
+                    <li>Contact Us</li>
+                </a>
+                <a href="">
+                    <div class="schedule-visit">
+                        <div class="calendar-icon"><i class="fa fa-calendar"></i></div>
+                        <p>Schedule a Visit</p>
+                    </div>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="carousel">
+        <div class="carousel-item-1">
+            <div class="carousel-content">
+                <div class="location-content">
+                    <span class="locality-text">Toronto, </span>
+                    <span class="country-text">Canada</span>
+                </div>
+                <span>
+                    <h2>HURRY! <br>
+                        GET THE BEST VILLA FOR YOU</h2>
+                </span>
+            </div>
+
+
+        </div>
+        <div class="carousel-item-2">
+            <div class="carousel-content">
+                <div class="location-content">
+                    <span class="locality-text">Melbourne, </span>
+                    <span class="country-text">Australia</span>
+                </div>
+                <span>
+                    <h2>BE QUICK! <br>
+                        GET THE BEST VILLA IN <br> TOWN</h2>
+                </span>
+            </div>
+        </div>
+        <div class="carousel-item-3">
+            <div class="carousel-content">
+                <div class="location-content">
+                    <span class="locality-text">Miami, </span>
+                    <span class="country-text">South Florida</span>
+                </div>
+                <span>
+                    <h2>ACT NOW! <br>
+                        GET THE <br>HIGHEST LEVEL <br>PENTHOUSE</h2>
+                </span>
+            </div>
+        </div>
+
+        <div class="left-arrow" onclick="showPreviousCarouselItem()">
+
+            <i class="fa fa-angle-left"></i>
+
+        </div>
+
+
+        <div class="right-arrow" onclick="showNextCarouselItem()">
+            <i class="fa fa-angle-right"></i>
+        </div>
+        <div class="dot-buttons">
+            <div class="circle-button" onclick="showItem(0)">
+
+            </div>
+            <div class="circle-button" onclick="showItem(1)">
+
+            </div>
+            <div class="circle-button" onclick="showItem(2)">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="featured">
+        <div class="featured-1">
+            <div class="feature-image"></div>
+            <div class="feature-icon">
+                <a href="">
+                    <img src="assets/images/featured-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="featured-2">
+            <h5>| FEATURED</h5>
+            <h3>Best Appartment <br>& Sea view</h3>
+            <div class="accordian">
+                <div class="accordian-header" onclick="showAccordianContent(0)">
+                    <p>Best useful links ?</p>
+                </div>
+                <div class="accordian-content">
+                    <p>Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business.
+                        TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates"
+                            target="_blank">best free CSS templates</a> in the world. Please tell your friends about it.
+                    </p>
+                </div>
+                <div class="accordian-header" onclick="showAccordianContent(1)">
+                    <p>How does this work ?</p>
+                </div>
+                <div class="accordian-content">
+                    <p>Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor
+                        incididunt ut labore consectetur <code>adipiscing</code>
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="accordian-header" onclick="showAccordianContent(2)">
+                    <p>Why is Villa Agency the best ?</p>
+                </div>
+                <div class="accordian-content">
+                    <p>Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor
+                        incididunt ut labore
+                        consectetur <code>adipiscing</code>
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="featured-3">
+            <div class="featured-3-content">
+                <img src="assets/images/info-icon-01.png" alt="">
+                <div class="info-matter">
+                    <h4>250 m2 <br>
+                        <span>Total Flat Space</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="featured-3-content">
+                <img src="assets/images/info-icon-02.png" alt="">
+                <div class="info-matter">
+                    <h4>Contract <br>
+                        <span>Contract Ready</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="featured-3-content">
+                <img src="assets/images/info-icon-03.png" alt="">
+                <div class="info-matter">
+                    <h4>Payment <br>
+                        <span>Payment Process</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="featured-3-content">
+                <img src="assets/images/info-icon-04.png" alt="">
+                <div class="info-matter">
+                    <h4>Safety <br>
+                        <span>24/7 Under Control</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="video-view">
+        <div class="video-bg">
+
+            <h5>| VIDEO VIEW</h5>
+            <h2>Get Closer View & <br> Different Feeling</h2>
+            <div class="video-frame">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <div class="video-button">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="records">
+        <div class="rect-record">
+            <h1>34</h1>
+            <h3>Buildings <br>
+                Finished Now</h3>
+            <div class="record-circle">
+
+            </div>
+        </div>
+        <div class="rect-record">
+            <h1>12</h1>
+            <h3>Years <br>
+                Experience</h3>
+            <div class="record-circle">
+
+            </div>
+        </div>
+        <div class="rect-record">
+            <h1>24</h1>
+            <h3>Awwards <br>
+                Won 2023</h3>
+            <div class="record-circle">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="best-deal">
+        <h5>| BEST DEAL</h5>
+        <div class="best-deal-heading-row">
+            <h1>
+                Find Your Best Deal <br>Right Now!
+
+            </h1>
+            <div class="heading-buttons">
+                <div class="heading-buton active-button-heading">
+                    <h4>Appartment</h4>
+                </div>
+                <div class="heading-buton">
+                    <h4>Villa House</h4>
+                </div>
+                <div class="heading-buton">
+                    <h4>Penthouse</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="best-deal-info">
+            <div class="place-info">
+                <ul>
+                    <li>
+                        <h5>Total Flat Space</h5>
+                        <h3>24</h3>
+                    </li>
+                    <li>
+                        <h5>Floor number</h5>
+                        <h3>26th</h3>
+                    </li>
+                    <li>
+                        <h5>Number of rooms</h5>
+                        <h3>4</h3>
+                    </li>
+                    <li>
+                        <h5>Parking Available</h5>
+                        <h3>Yes</h3>
+                    </li>
+                    <li>
+                        <h5>Payment Process</h5>
+                        <h3>Bank</h3>
+                    </li>
+                </ul>
+            </div>
+            <img src="assets/images/deal-01.jpg" alt="">
+            <div class="detail-info">
+                <h4>Extra Info About Property</h4>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore
+                    et dolore magna
+                    aliqua quised ipsum suspendisse.</h5>
+
+                <h5>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In
+                    addition, you can type
+                    TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</h5>
+
+                <a href="">
+                    <div class="schedule-visit">
+                        <div class="calendar-icon"><i class="fa fa-calendar"></i></div>
+                        <p>Schedule a Visit</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="properties">
+        <h5>| PROPERTIES</h5>
+        <h1>We Provide The Best </h1>
+        <h1>Property You Like</h1>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
